@@ -1,0 +1,38 @@
+<?xml-stylesheet type="text/xsl" href="xml2json.xslt"?>
+<!-- 
+Test XML markup for converting xml to JSON using XSLT.
+By Doeke Zanstra, 2006 
+-->
+<discovery>
+	<changeset>2011-02-03 14:18</changeset>
+	<contact>You can email or call for assistance api@mycity.org +1 (555) 555-5555</contact>
+	<key_service>You can request a key here: http://api.mycity.gov/api_key/request</key_service>
+	<endpoints>
+		<endpoint>
+			<specification>http://wiki.open311.org/GeoReport_v2.1</specification>
+			<url>http://open311.mycity.gov/v2_1</url>
+			<changeset>2010-11-23 09:01</changeset>
+			<type>production</type>
+			<formats>
+				<format>text/xml</format>
+			</formats>
+		</endpoint>
+		<endpoint>
+			<specification>http://wiki.open311.org/GeoReport_v2.1</specification>
+			<url>http://open311.mycity.gov/test/v2_1</url>
+			<changeset>2010-10-02 09:01</changeset>
+			<type>test</type>
+			<formats>
+				<format>text/xml</format>
+				<format>text/json</format>
+				<format>text/html</format>
+			</formats>
+		</endpoint>
+		<endpoint>
+			<specification>http://wiki.open311.org/GeoReport_v3</specification>
+			<url>http://open311.mycity.gov/v3</url>
+			<changeset>2011-02-03 14:18</changeset>
+			<type>test</type>
+		</endpoint>
+	</endpoints>
+</discovery>
