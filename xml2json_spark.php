@@ -2,6 +2,7 @@
 if ($_REQUEST['xml']) {
 
 	$xml_string = $_REQUEST['xml'];
+	$xml_string = trim($xml_string);
 	
 	// PHP XSLT Processing from http://www.tonymarston.net/php-mysql/xsl.html
 
