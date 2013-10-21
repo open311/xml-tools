@@ -143,7 +143,7 @@ textarea {
 	<form method="POST" action="">
 		
 		<label for="xml">Enter some XML:</label>
-		<textarea id="xml" name="xml" columns="50" rows="10">	<?php	if($json) echo $xml_string; ?></textarea>
+		<textarea id="xml" name="xml" columns="50" rows="10"><?php	if($json) echo $xml_string; ?></textarea>
 
 		<input id="submit" type="submit" value="Convert to JSON" />
 	</form>
